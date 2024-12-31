@@ -9,6 +9,6 @@ public class AOT {
   b = s.nextInt();
   h = s.nextInt();
   are = (1.0/2)*b*h;   
-  System.out.println("area of trianglr" + are)
+  System.out.println("area of trianglr" + are);
  }
 }
