@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AOT {
 
  public static void main(String ag[]) {
-  double b,h;
+  double are,b,h;
   Scanner s = new Scanner(System.in);   
   System.out.print("Enter radius of triangle:");
   b = s.nextInt();
