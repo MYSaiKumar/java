@@ -1,20 +1,14 @@
-public class AOT
-{
-    public static void main (String[] args)
-    {
+import java.util.Scanner;
 
+public class AOT {
 
-    double a =area(12.0,10.0);
-    System.out.println("area of trianglr" + a);
-
-    
-
-    }
-
-public static double area(double b,double h)
-{
-double area=(1.0/2)*b*h;
-return area;
-
-}
+ public static void main(String ag[]) {
+  double b,h;
+  Scanner s = new Scanner(System.in);   
+  System.out.print("Enter radius of triangle:");
+  b = s.nextInt();
+  h = s.nextInt();
+  are = (1.0/2)*b*h;   
+  System.out.println("area of trianglr" + are)
+ }
 }
